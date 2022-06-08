@@ -40,7 +40,7 @@ for transaction in transactions:
         else:
             break
     op[transaction] = count
-print(op)
+#print(op)
 print(sorted(op, key=op.get, reverse=True)[:10])
 
 
